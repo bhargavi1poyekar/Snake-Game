@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+#include<ctype.h>
+
+int main()
+{
+     int t,i,len,mid;
+     char str[20],temp;
+     clrscr();
+     printf("Enter the no. of test cases:");
+     scanf("%d", &t);
+     while(t!=0)
+      {
+	 printf("Enter the length of the string");
+	 scanf("%d", &len);
+	 printf("Enter the string:);
+	 for(i=0;i<len;i++)
+	  {
+	     scanf("%s", &str[i]);
+	  }
+	 mid=len/2;
+	 for(
